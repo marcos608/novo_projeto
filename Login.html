@@ -37,11 +37,11 @@
                     <legend>Faça o seu login</legend>
 
                     <input id="inputEmail" type="email" placeholder="Email">
-                    <input id="inputSenha" type="password" placeholder="Password">
-                    <button id="btnLogin" type="submit" class="pure-button pure-button-primary">Sign in</button>
-                    <h6>Não tem cadastro? <a class="clik_aqui" href="cad_Login.html">Click Aqui!</a></h6>
+                    <input id="inputSenha" type="password" placeholder="Senha">
                 </fieldset>
             </form>
+            <button id="btnLogin" type="submit" class="pure-button pure-button-primary">Sign in</button>
+            <h6>Não tem cadastro? <a class="clik_aqui" href="cad_Login.html">Click Aqui!</a></h6>
 
 </div>
 </div>
@@ -52,7 +52,10 @@
 
 </div>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+
 <script src="js/app.js"></script>
 <script src="js/authentication.js"></script>
 </body>
