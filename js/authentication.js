@@ -2,6 +2,7 @@ var btnLogin = document.getElementById('btnLogin');
 var inputEmail = document.getElementById('inputEmail');
 var inputSenha = document.getElementById('inputSenha');
 
+
 btnLogin.addEventListener('click', function(){
 
   firebase
@@ -17,3 +18,4 @@ btnLogin.addEventListener('click', function(){
 
 
 });
+
