@@ -9,10 +9,9 @@ btnLogin.addEventListener('click', function(){
         .signInWithEmailAndPassword(inputEmail.value, inputSenha.value)
         .then(function(result){
           window.location.replace('grid.html');
-          alert("não que funcionar!");
         })
         .catch(function(error) {
-          alert("deu errado!");
+          alert("Login não cadastrado!");
 
   });
 
