@@ -1,2 +1,2 @@
-# http://purefashion.github.io
+# http://novo_projeto.github.io
 novo_projeto
