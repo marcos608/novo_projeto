@@ -224,7 +224,7 @@ a.pure-button-primary {
 .footer {
     background: #111;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -287,6 +287,10 @@ a.pure-button-primary {
 
 .clik_aqui{
     text-decoration: none;
+}
+
+.margin{
+    margin-bottom: 20px;
 }
 
 .content{
